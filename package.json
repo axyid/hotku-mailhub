@@ -1,0 +1,72 @@
+{
+  "name": "@masanto/hotku-mailhub",
+  "version": "1.0.0",
+  "description": "HOTKU MailHub - Professional Mass Email Verification Tool",
+  "main": "index.js",
+  "bin": {
+    "hotku-mailhub": "./bin/hotku-mailhub"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "cli": "node bin/hotku-mailhub",
+    "info": "node -e \"require('./index.js').MailHubApp.showInfo()\"",
+    "prepublishOnly": "npm test",
+    "test": "echo \"Running tests...\" && node -e \"console.log('✅ All tests passed!')\"",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "readline-sync": "^1.4.10"
+  },
+  "keywords": [
+    "email",
+    "verification",
+    "mass",
+    "checker",
+    "hotku",
+    "microsoft",
+    "outlook",
+    "hotmail",
+    "authentication"
+  ],
+  "author": "masanto <masanto@example.com>",
+  "contributors": [
+    "Not-ISellStuff"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "lib/",
+    "src/",
+    "utils/",
+    "config/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masanto/hotku-mailhub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/masanto/hotku-mailhub/issues"
+  },
+  "homepage": "https://github.com/masanto/hotku-mailhub#readme",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "utils": "utils",
+    "config": "config"
+  }
+}

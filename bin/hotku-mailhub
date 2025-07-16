@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+/**
+ * HOTKU MailHub CLI Entry Point
+ * @author masanto
+ * @version 1.0.0
+ */
+
+const path = require('path');
+const { MailHubApp } = require('../index.js');
+
+async function main() {
+    try {
+        console.log('🔥 HOTKU MailHub Mass Checker CLI');
+        console.log('Author: masanto\n');
+        
+        const app = new MailHubApp();
+        await app.run();
+    } catch (error) {
+        console.error('❌ CLI Error:', error.message);
+        process.exit(1);
+    }
+}
+
+// Run CLI
+main();
