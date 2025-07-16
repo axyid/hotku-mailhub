@@ -30,7 +30,7 @@ npm install @masanto/hotku-mailhub
 ### Git Repository
 
 ```bash
-git clone https://github.com/masanto/hotku-mailhub.git
+git clone https://github.com/axyid/hotku-mailhub.git
 cd hotku-mailhub
 npm install
 ```
