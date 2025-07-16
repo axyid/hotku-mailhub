@@ -285,15 +285,15 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 👨‍💻 Authors & Contributors
 
-- **masanto** - *Main Author* - [@masanto](https://github.com/masanto)
+- **masanto** - *Main Author* - [@masanto](https://github.com/axyid)
 - **Not-ISellStuff** - *Original Developer* - HOTKU Brand
 
 ## 🔗 Links
 
 - [NPM Package](https://www.npmjs.com/package/@masanto/hotku-mailhub)
-- [GitHub Repository](https://github.com/masanto/hotku-mailhub)
-- [Issue Tracker](https://github.com/masanto/hotku-mailhub/issues)
-- [Documentation](https://github.com/masanto/hotku-mailhub#readme)
+- [GitHub Repository](https://github.com/axyid/hotku-mailhub)
+- [Issue Tracker](https://github.com/axyid/hotku-mailhub/issues)
+- [Documentation](https://github.com/axyid/hotku-mailhub#readme)
 
 ## 📈 Changelog
 
